@@ -264,3 +264,31 @@ a:hover {
   right: 883px;
   top: 992px;
 }
+
+.project-slider {
+  width: 362px;
+  height: 389px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.project-slider-img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-slider-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.project-slider-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
