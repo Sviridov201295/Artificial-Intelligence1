@@ -23,7 +23,8 @@
 }
 
 .header__title-1 {
-    @include headersubtitle 
+    margin-bottom: 10px;
+    @include headersubtitle;
 }
 
 .header__title-2 {
@@ -32,10 +33,12 @@
     color: $white;
     font-weight: 800;
     font-size: 55px;
+    margin-bottom: 40px;
 }
 
 .header__title-3 {
-    @include headersubtitle
+    margin-bottom: 50px;
+    @include headersubtitle;
 }
 
 .header__button{
@@ -45,15 +48,23 @@
     
 }
 
-.header__btn {
+.btn {
     height: 57px;
     background-color: $accent;
     padding: 15px 30px;
     align-items: flex-start;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
 }
+.header-mainphoto {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
+
 
 .header__card {
     display: flex;
     column-gap: 71px;
+    padding-bottom: 143px;
 }
