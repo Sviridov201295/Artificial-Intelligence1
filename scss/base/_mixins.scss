@@ -5,3 +5,18 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+@mixin photos {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(100%);
+    z-index: -1;
+    content: '';
+    background-image: url(./../../img/header/header-mainphoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 632px;
+    height: 634px;
+    transition: all .2s ease-in-out;
+}

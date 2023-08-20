@@ -4,14 +4,13 @@
     justify-content: space-between;
 
     padding-top: 21px;
-    padding-bottom: 99px;
+    // padding-bottom: 99px;
 
     min-height: 1030px;
 }
 
 .header__top-row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -45,7 +44,7 @@
     display: flex;
     column-gap: 20px;
     transition: background-color 0.3s linear;
-    
+    margin-left: auto;
 }
 
 .btn {
@@ -62,9 +61,19 @@
     grid-template-columns: 7fr 5fr;
 }
 
-
 .header__card {
     display: flex;
     column-gap: 71px;
     padding-bottom: 143px;
+}
+
+
+.title__textes {
+    position: relative;
+}
+
+.mainphoto {
+    position: absolute;
+    right: 113px;
+    top: -111px;
 }
