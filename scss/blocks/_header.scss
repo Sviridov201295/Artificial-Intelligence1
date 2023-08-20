@@ -17,19 +17,25 @@
 
 .header__title {
     text-align: left;
-    font-size: 55px;
     font-family: $font-main;
     color: $white;
     font-weight: 800;
 }
 
 .header__title-1 {
+    @include headersubtitle 
+}
+
+.header__title-2 {
     text-align: left;
-    font-size: 55px;
     font-family: $font-main;
     color: $white;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.header__title-3 {
+    @include headersubtitle
 }
 
 .header__button{
@@ -42,12 +48,12 @@
 .header__btn {
     height: 57px;
     background-color: $accent;
+    padding: 15px 30px;
+    align-items: flex-start;
     border-radius: 5px;
-
 }
 
-.header__btn {
-    height: 57px;
-    background-color: $accent;
-    border-radius: 5px;
+.header__card {
+    display: flex;
+    column-gap: 71px;
 }
