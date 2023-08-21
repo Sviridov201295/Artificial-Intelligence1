@@ -1,0 +1,31 @@
+.about__main {
+    position: relative;
+}
+
+
+.about-img {
+    position: absolute;
+    right: 113px;
+    top: -43px;
+    padding-bottom: 170px;
+}
+
+
+.about__texts {
+    font-family: $font-main;
+    padding-bottom: 170px;
+}
+
+.about__title {
+    font-family: $font-main;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about__subtext {
+    display: grid;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
