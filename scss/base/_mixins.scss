@@ -20,3 +20,10 @@
     height: 634px;
     transition: all .2s ease-in-out;
 }
+
+@mixin circle($i) {
+    border-radius: 100%;
+    height: $i;
+    width: $i;
+  }
+  
