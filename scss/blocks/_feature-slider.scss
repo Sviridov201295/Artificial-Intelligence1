@@ -1,4 +1,4 @@
-.feature-sliders {
+.project-slider-container {
     display: flex;
     column-gap: 30px;
     padding-bottom: 50px;
@@ -58,31 +58,22 @@
     }
 }
 
-
-.map {
-  padding-bottom: 170px;
-    // margin-top: 1em;
+.slider-controls {
+    padding-top: 50px;
+    padding-bottom: 170px;
     text-align: center;
     & > button {
-      all: unset;
-      background: lighten($cardBlue, 10);
-      cursor: pointer;
-      margin: 0 0.125em;
-      position: relative;
-      user-select: none;
-      @include circle(1em);
-  
-      &.active {
-        &:after {
-          background: $bgBlue;
-          content: "";
-          left: 50%;
-          position: absolute;
-          transform: translate(-50%, -50%);
-          top: 50%;
-          @include circle(0.5em);
-        }
-      }
+        all: unset;
+        @include circle(15px);
+        background: lighten($cardcolor, 10);
+        cursor: pointer;
+        margin: 0 0.125em;
+        position: relative;
+        user-select: none;
+        opacity: 50%;
     }
-  }
-  
+}
+
+#slider-center {
+    opacity: 100%;
+}
